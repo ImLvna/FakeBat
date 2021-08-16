@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeBat", "FakeBat.csproj", "{91BB5040-A938-4B2D-AEB7-1AB90FBD9CDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91BB5040-A938-4B2D-AEB7-1AB90FBD9CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BB5040-A938-4B2D-AEB7-1AB90FBD9CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BB5040-A938-4B2D-AEB7-1AB90FBD9CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BB5040-A938-4B2D-AEB7-1AB90FBD9CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8649209E-0281-45E4-85E6-CE9005C8F9D6}
+	EndGlobalSection
+EndGlobal

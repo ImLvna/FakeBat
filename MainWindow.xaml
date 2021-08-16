@@ -1,0 +1,20 @@
+﻿<Window x:Class="FakeBat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FakeBat"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="161.4828544903" Width="680.354351224596"
+        WindowStyle="None" ResizeMode="NoResize"
+        Background="#2E394E">
+    <Grid>
+        <Label Content="Your battery is running low." FontSize="26px" Foreground="#fff" Margin="29,16,302.667,98.333"/>
+        <Label Content="You might want to plug in your PC." FontSize="15px" Foreground="#fff" Margin="29,67,302.667,50.333"/>
+        <Border Name="closebtn" Background="#353C48" BorderThickness="3px" BorderBrush="#fff" HorizontalAlignment="Right" Margin="0,0,15.667,16.333" VerticalAlignment="Bottom" Width="100" Height="38" MouseEnter="closebtn_MouseEnter" MouseLeave="closebtn_MouseLeave" MouseLeftButtonDown="closebtn_MouseLeftButtonDown" MouseLeftButtonUp="closebtn_MouseLeftButtonUp">
+            <Label Name="closetext" Content="Close" Foreground="#fff" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+    </Grid>
+</Window>
